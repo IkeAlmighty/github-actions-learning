@@ -30,6 +30,12 @@ jobs:
       - name: 🧰 Install Deps
         run: npm install
 
+      - name: Run Build
+        run: npm run build
+
       # Run lint
       - name: Run Lint
         run: npm run lint
+
+      - name: Run Tests
+        run: npm run test
